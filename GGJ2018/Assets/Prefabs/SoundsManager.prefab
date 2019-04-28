@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &189212435897672511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189212435897672510}
+  - component: {fileID: 189212435897672509}
+  m_Layer: 0
+  m_Name: SoundsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189212435897672510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189212435897672511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 383.78845, y: 251.33365, z: -0.34503406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189212435897672509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189212435897672511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accaf177fd2e3394aa5999ad4bc4a414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPlaying: 
+  isPlaying: 0
+  sounds:
+  - name: BGM2
+    clip: {fileID: 8300000, guid: 9c95c20c79c51a5478548a49077ee9c1, type: 3}
+    Loop: 1
+    PlayOnAwake: 0
+  - name: SFX_Level
+    clip: {fileID: 8300000, guid: 0a343e609dfdf3a42904e48b041d88de, type: 3}
+    Loop: 0
+    PlayOnAwake: 0
+  - name: SFX_Function
+    clip: {fileID: 8300000, guid: 69767305ef2373046879997819c962a1, type: 3}
+    Loop: 0
+    PlayOnAwake: 0
+  - name: SFX_Complete
+    clip: {fileID: 8300000, guid: dccbc8ebeb58ab84c9654d85f3f46082, type: 3}
+    Loop: 0
+    PlayOnAwake: 0
+  - name: SFX_UI
+    clip: {fileID: 8300000, guid: 8898a9e4fa8d0c946a984c968cdf5db1, type: 3}
+    Loop: 0
+    PlayOnAwake: 0
+  - name: BGM1
+    clip: {fileID: 8300000, guid: 0cf214049a6e0974ba228163f26654fd, type: 3}
+    Loop: 1
+    PlayOnAwake: 0
